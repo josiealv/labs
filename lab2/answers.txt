@@ -1,1 +1,9 @@
-Answers go here!
+Problem 1)
+  
+  line 249 had: invaders[invaderRow][invaderRow] = new Warrior();
+  which is wrong because you have 2 invaderRow instead of [invaderRow][invaderCol], 
+  so I fixed the code by changing it to [invaderRow][invaderCol].
+  
+  Problem 2)
+  
+    
